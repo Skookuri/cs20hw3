@@ -4,7 +4,7 @@ CATALOG {
      width: 100%;
 }
 
-TITLE, ARTIST, GENRE, YEAR {
+SONG, TITLE, ARTIST, GENRE, YEAR {
      display : block;
 }
 
