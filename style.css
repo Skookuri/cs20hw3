@@ -9,6 +9,7 @@ CATALOG {
      position: absolute;
      left: 50%;
      margin-right: -50%;
+     overflow-x: hidden;
 }
 
 TITLE {
