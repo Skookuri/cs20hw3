@@ -31,14 +31,26 @@ SONG:hover {
 
 ARTIST::before {
      content: "Artist(s): ";
+     color: #191414;
+     border: 1px solid #1DB954;
+     background color: #1DB954;
+     border-radius: 15px;
 }
 
 GENRE::before {
      content: "Genre(s): ";
+     color: #191414;
+     border: 1px solid #1DB954;
+     background color: #1DB954;
+     border-radius: 15px;
 }
 
 YEAR::before {
      content: "Year: ";
+     color: #191414;
+     border: 1px solid #1DB954;
+     background color: #1DB954;
+     border-radius: 15px;
 }
 
 
