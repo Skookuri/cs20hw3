@@ -29,34 +29,48 @@ SONG:hover {
      background-color: rgba(255,255,255, 0.4);
 }
 
+ARTIST::before {
+     content: "Artist(s): ";
+}
+
+GENRE::before {
+     content: "Genre(s): ";
+}
+
+YEAR::before {
+     content: "Year: ";
+}
 
 
 
 
 
-    @media screen and (max-width: 767px) {
-      CATALOG, SONG, ARTIST, GENRE, YEAR {
+@media screen and (max-width: 767px) {
+     CATALOG, SONG, ARTIST, GENRE, YEAR {
          font-size: 5.2vw;
-      }
-      TITLE {
+     }
+
+     TITLE {
          font-size: 7.8vw;
       }
-    }
+}
     
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-      CATALOG, SONG, ARTIST, GENRE, YEAR {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+     CATALOG, SONG, ARTIST, GENRE, YEAR {
           font-size: 3.2vw;
-      }
-      TITLE {
+     }
+
+     TITLE {
          font-size: 4.8vw;
-      }
-    }
+     }
+}
     
-    @media screen and (min-width: 1024px) {
-      CATALOG, SONG, ARTIST, GENRE, YEAR {
+@media screen and (min-width: 1024px) {
+     CATALOG, SONG, ARTIST, GENRE, YEAR {
           font-size: 1.2vw;
-      }
-      TITLE {
+     }
+
+     TITLE {
          font-size: 1.8vw;
-      }
-    }
+     }
+}
