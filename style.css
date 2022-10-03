@@ -32,11 +32,17 @@ SONG:hover {
       CATALOG, SONG, ARTIST, GENRE, YEAR {
          font-size: 5.2vw;
       }
+      TITLE {
+         font-size: 7.8vw;
+      }
     }
     
     @media screen and (min-width: 768px) and (max-width: 1023px) {
       CATALOG, SONG, ARTIST, GENRE, YEAR {
           font-size: 3.2vw;
+      }
+      TITLE {
+         font-size: 4.8vw;
       }
     }
     
