@@ -28,3 +28,21 @@ SONG:hover {
      transition: 0.4s;
      background-color: rgba(255,255,255, 0.4);
 }
+
+    @media screen and (max-width: 767px) {
+        CATALOG, SONG, ARTIST, GENRE, YEAR {
+          font-size: 5.2vw;
+      }    
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      CATALOG, SONG, ARTIST, GENRE, YEAR {
+          font-size: 3.2vw;
+      }
+    }
+    
+    @media screen and (min-width: 1024px) {
+      CATALOG, SONG, ARTIST, GENRE, YEAR {
+          font-size: 1.2vw;
+      }
+    }
