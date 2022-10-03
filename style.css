@@ -1,5 +1,6 @@
 CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
      background-color: #191414;
+     display: block;
 }
 
 CATALOG {
