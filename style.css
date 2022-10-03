@@ -1,6 +1,7 @@
-CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
+CATALOG, SONG, ARTIST, GENRE, YEAR {
      background-color: #191414;
      display: block;
+     font-size: 3.2vw;
 }
 
 CATALOG {
@@ -10,6 +11,8 @@ CATALOG {
 TITLE {
      font-size : 25px;
      font-weight : bold;
+     background-color: #191414;
+     display: block;
 }
 
 SONG {
@@ -24,9 +27,4 @@ SONG:hover {
      border: 1px solid #FFFFFF;
      transition: 0.4s;
      background-color: rgba(255,255,255, 0.4);
-}
-
-body
-{
-    font-size: 3.2vw;
 }
