@@ -1,6 +1,7 @@
 CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
      background-color: #191414;
      display: block;
+     overflow-x: hidden;
 }
 
 CATALOG {
@@ -9,7 +10,7 @@ CATALOG {
      position: absolute;
      left: 50%;
      margin-right: -50%;
-     overflow-x: hidden;
+     
 }
 
 TITLE {
