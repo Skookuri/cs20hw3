@@ -29,7 +29,7 @@ SONG:hover {
      background-color: rgba(255,255,255, 0.4);
 }
 
-ARTIST:hover::before {
+ARTIST::before {
      content: "Artist(s)";
      color: #191414;
      border: 1px solid #1DB954;
@@ -39,7 +39,7 @@ ARTIST:hover::before {
      transform: translate(-50px, 0px);
 }
 
-GENRE:hover::before {
+GENRE::before {
      content: "Genre(s)";
      color: #191414;
      border: 1px solid #1DB954;
@@ -49,7 +49,7 @@ GENRE:hover::before {
      transform: translate(-50px, 0px);     
 }
 
-YEAR:hover::before {
+YEAR::before {
      content: "Year";
      color: #191414;
      border: 1px solid #1DB954;
