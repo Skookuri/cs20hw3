@@ -29,31 +29,32 @@ SONG:hover {
      background-color: rgba(255,255,255, 0.4);
 }
 
-ARTIST::before {
-     content: "Artist(s): ";
+ARTIST:hover::before {
+     content: "Artist(s)";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
      border-radius: 15px;
+     font-weight: bold;
 }
 
-GENRE::before {
-     content: "Genre(s): ";
+GENRE:hover::before {
+     content: "Genre(s)";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
      border-radius: 15px;
+     font-weight: bold;     
 }
 
-YEAR::before {
-     content: "Year: ";
+YEAR:hover::before {
+     content: "Year";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
      border-radius: 15px;
+     font-weight: bold;
 }
-
-
 
 
 
