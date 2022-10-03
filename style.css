@@ -35,8 +35,9 @@ ARTIST, GENRE, YEAR {
      display: none;
 }
 
-TITLE:hover + ARTIST + GENRE + YEAR {
+TITLE:hover + ARTIST, GENRE, YEAR {
      display: block;
+     transition: 0.4s;
 }
 
 
