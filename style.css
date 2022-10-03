@@ -30,7 +30,7 @@ SONG:hover {
 }
 
 ARTIST::before {
-     content: "Artist(s) ";
+     content: "Artist(s)";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
@@ -40,7 +40,7 @@ ARTIST::before {
 }
 
 GENRE::before {
-     content: "Genre(s) ";
+     content: "Genre(s)";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
@@ -50,7 +50,7 @@ GENRE::before {
 }
 
 YEAR::before {
-     content: "Year ";
+     content: "Year";
      color: #191414;
      border: 1px solid #1DB954;
      background-color: #1DB954;
