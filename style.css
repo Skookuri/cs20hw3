@@ -21,12 +21,12 @@ SONG {
      max-width: 320px;
      background-color: #191414;
      margin: auto;
+     padding: 5px 5px 5px 5px;
 }
 
 SONG:hover {
      border: 1px solid #FFFFFF;
      transition: 0.4s;
-     background-color: rgba(255,255,255, 0.4);
 }
 
 ARTIST::before {
