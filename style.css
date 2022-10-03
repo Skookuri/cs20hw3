@@ -5,6 +5,10 @@ CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
 
 CATALOG {
      width: 100%;
+     text-align: center;
+     position: absolute;
+     left: 50%;
+     margin-right: -50%;
 }
 
 TITLE {
