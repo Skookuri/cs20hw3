@@ -13,5 +13,9 @@ TITLE {
 }
 
 SONG {
-     color: #1DB954;    
+     color: #1DB954;
+}
+
+SONG:hover {
+     border: 10px solid #FFFF;
 }
