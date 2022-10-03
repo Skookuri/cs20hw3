@@ -9,7 +9,6 @@ CATALOG {
 }
 
 TITLE {
-     font-size : 25px;
      font-weight : bold;
      background-color: #191414;
      display: block;
@@ -30,9 +29,9 @@ SONG:hover {
 }
 
     @media screen and (max-width: 767px) {
-        CATALOG, SONG, ARTIST, GENRE, YEAR {
-          font-size: 5.2vw;
-      }    
+      CATALOG, SONG, ARTIST, GENRE, YEAR {
+         font-size: 5.2vw;
+      }
     }
     
     @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -44,5 +43,8 @@ SONG:hover {
     @media screen and (min-width: 1024px) {
       CATALOG, SONG, ARTIST, GENRE, YEAR {
           font-size: 1.2vw;
+      }
+      TITLE {
+         font-size: 2.4vw;
       }
     }
