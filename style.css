@@ -1,11 +1,10 @@
 CATALOG {
      color: white;
-     background-color : gray;
      width: 100%;
 }
 
-SONG, TITLE, ARTIST, GENRE, YEAR {
-     display : block;
+CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
+     background-color: black;
 }
 
 TITLE {
