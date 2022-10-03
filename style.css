@@ -1,7 +1,10 @@
 CATALOG, SONG, ARTIST, GENRE, YEAR {
      background-color: #191414;
-     display: block;
      font-size: 1.2vw;
+}
+
+CATALOG, TITLE {
+     display: block;
 }
 
 CATALOG {
@@ -27,6 +30,16 @@ SONG:hover {
      transition: 0.4s;
      background-color: rgba(255,255,255, 0.4);
 }
+
+ARTIST, GENRE, YEAR {
+     display: none;
+}
+
+TITLE:hover + ARTIST + GENRE + YEAR {
+     display: block;
+}
+
+
 
     @media screen and (max-width: 767px) {
       CATALOG, SONG, ARTIST, GENRE, YEAR {
