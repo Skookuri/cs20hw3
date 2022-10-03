@@ -37,6 +37,7 @@ ARTIST::before {
      border-radius: 15px;
      font-weight: bold;
      transform: translate(-50px, 0px);
+     margin-right: 5px;
 }
 
 GENRE::before {
@@ -46,7 +47,8 @@ GENRE::before {
      background-color: #1DB954;
      border-radius: 15px;
      font-weight: bold;
-     transform: translate(-50px, 0px);     
+     transform: translate(-50px, 0px);
+     margin-right: 5px;
 }
 
 YEAR::before {
@@ -56,7 +58,8 @@ YEAR::before {
      background-color: #1DB954;
      border-radius: 15px;
      font-weight: bold;
-     transform: translate(-50px, 0px);     
+     transform: translate(-50px, 0px); 
+     margin-right: 5px;
 }
 
 
