@@ -3,11 +3,8 @@ CATALOG, SONG, TITLE, ARTIST, GENRE, YEAR {
 }
 
 CATALOG {
-     color: white;
      width: 100%;
 }
-
-
 
 TITLE {
      font-size : 25px;
