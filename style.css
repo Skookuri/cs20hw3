@@ -22,19 +22,6 @@ SONG {
      background-color: #191414;
      margin: auto;
      padding: 5px 5px 5px 5px;
-     text-indent: 1em;
-}
-
-ARTIST {
-     text-indent: 1em;
-}
-
-GENRE {
-     text-indent: 1em;
-}
-
-YEAR {
-     text-indent: 1em;
 }
 
 SONG:hover {
